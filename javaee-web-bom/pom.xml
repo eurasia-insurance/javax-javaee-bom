@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>tech.lapsa.javax</groupId>
+		<artifactId>javax-javaee-bom-root</artifactId>
+		<version>7.0-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>javax-javaee-web-bom</artifactId>
+	<packaging>pom</packaging>
+
+	<name>Java EE Lib : Java EE 7.0 BOM : Java EE 7.0 Web BOM</name>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>javax</groupId>
+				<artifactId>javaee-web-api</artifactId>
+				<version>7.0</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.servlet</groupId>
+				<artifactId>javax.servlet-api</artifactId>
+				<version>3.1.0</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.servlet.jsp</groupId>
+				<artifactId>javax.servlet.jsp-api</artifactId>
+				<version>2.3.1</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.el</groupId>
+				<artifactId>javax.el-api</artifactId>
+				<version>3.0.0</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.servlet.jsp.jstl</groupId>
+				<artifactId>javax.servlet.jsp.jstl-api</artifactId>
+				<version>1.2.1</version>
+			</dependency>
+			<dependency>
+				<groupId>org.glassfish</groupId>
+				<artifactId>javax.faces</artifactId>
+				<version>2.2.0</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.faces</groupId>
+				<artifactId>javax.faces-api</artifactId>
+				<version>2.2</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.ws.rs</groupId>
+				<artifactId>javax.ws.rs-api</artifactId>
+				<version>2.0</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.websocket</groupId>
+				<artifactId>javax.websocket-api</artifactId>
+				<version>1.0</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.json</groupId>
+				<artifactId>javax.json-api</artifactId>
+				<version>1.0</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.annotation</groupId>
+				<artifactId>javax.annotation-api</artifactId>
+				<version>1.2</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.ejb</groupId>
+				<artifactId>javax.ejb-api</artifactId>
+				<version>3.2</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.transaction</groupId>
+				<artifactId>javax.transaction-api</artifactId>
+				<version>1.2</version>
+			</dependency>
+			<dependency>
+				<groupId>org.eclipse.persistence</groupId>
+				<artifactId>javax.persistence</artifactId>
+				<version>2.1.0</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.validation</groupId>
+				<artifactId>validation-api</artifactId>
+				<version>1.1.0.Final</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.interceptor</groupId>
+				<artifactId>javax.interceptor-api</artifactId>
+				<version>1.2</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.enterprise</groupId>
+				<artifactId>cdi-api</artifactId>
+				<version>1.1</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.inject</groupId>
+				<artifactId>javax.inject</artifactId>
+				<version>1</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<scm>
+		<connection>scm:git:https://gitlab.lapsa.tech/lapsa/lapsa/arquillian-test.git</connection>
+		<developerConnection>scm:git:https://gitlab.lapsa.tech/lapsa/lapsa/arquillian-test.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
+	<issueManagement>
+		<system>gitlab</system>
+		<url>https://gitlab.lapsa.tech/lapsa/lapsa/arquillian-test/issues</url>
+	</issueManagement>
+
+</project>
