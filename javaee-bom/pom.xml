@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>tech.lapsa.javax</groupId>
 		<artifactId>javax-javaee-bom-root</artifactId>
-		<version>7.0</version>
+		<version>7.1-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>javax-javaee-bom</artifactId>
@@ -113,7 +113,7 @@
 	<scm>
 		<connection>scm:git:https://gitlab.lapsa.tech/lapsa/javax/javaee-bom.git</connection>
 		<developerConnection>scm:git:https://gitlab.lapsa.tech/lapsa/javax/javaee-bom.git</developerConnection>
-		<tag>v7.0</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
