@@ -16,8 +16,8 @@
 	<name>Java EE Lib : Java EE 7.0 BOM : Root POM</name>
 
 	<modules>
-		<module>bom-web</module>
-		<module>bom-javaee</module>
+		<module>javaee-web-bom</module>
+		<module>javaee-bom</module>
 	</modules>
 
 	<dependencyManagement>
