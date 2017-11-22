@@ -9,7 +9,7 @@
 	</parent>
 
 	<groupId>tech.lapsa.javax</groupId>
-	<artifactId>javax-bom-root</artifactId>
+	<artifactId>javax-javaee-bom-root</artifactId>
 	<version>7.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
