@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>tech.lapsa.javax</groupId>
 		<artifactId>javax-javaee-bom-root</artifactId>
-		<version>7.1-SNAPSHOT</version>
+		<version>7.0-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>javax-javaee-web-bom</artifactId>
@@ -106,16 +106,5 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
-	<scm>
-		<connection>scm:git:https://gitlab.lapsa.tech/lapsa/lapsa/arquillian-test.git</connection>
-		<developerConnection>scm:git:https://gitlab.lapsa.tech/lapsa/lapsa/arquillian-test.git</developerConnection>
-		<tag>HEAD</tag>
-	</scm>
-
-	<issueManagement>
-		<system>gitlab</system>
-		<url>https://gitlab.lapsa.tech/lapsa/lapsa/arquillian-test/issues</url>
-	</issueManagement>
 
 </project>
