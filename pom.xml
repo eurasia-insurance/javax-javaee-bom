@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>tech.lapsa.maven</groupId>
@@ -8,28 +9,30 @@
 	</parent>
 
 	<groupId>tech.lapsa.javax</groupId>
-	<artifactId>javax-javaee-bom-root</artifactId>
+	<artifactId>javax-bom-root</artifactId>
 	<version>7.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Java EE Lib : Java EE 7.0 BOM : Root POM</name>
 
 	<modules>
-		<module>web-bom</module>
-		<module>javaee-bom</module>
+		<module>bom-web</module>
+		<module>bom-javaee</module>
 	</modules>
 
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
 				<groupId>${project.groupId}</groupId>
-				<artifactId>javax-javaee-web-bom</artifactId>
+				<artifactId>javax-bom-web</artifactId>
 				<version>${project.version}</version>
+				<type>pom</type>
 			</dependency>
 			<dependency>
 				<groupId>${project.groupId}</groupId>
-				<artifactId>javax-javaee-bom</artifactId>
+				<artifactId>javax-bom-javaee</artifactId>
 				<version>${project.version}</version>
+				<type>pom</type>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
