@@ -37,9 +37,9 @@
 	</dependencyManagement>
 
 	<scm>
-		<connection>scm:git:https://gitlab.lapsa.tech/lapsa/javax/javaee-bom.git</connection>
-		<developerConnection>scm:git:https://gitlab.lapsa.tech/lapsa/javax/javaee-bom.git</developerConnection>
-		<tag>v7.0a</tag>
+		<connection>scm:git:https://github.com/eurasia-insurance/javax-javaee-bom.git</connection>
+		<developerConnection>scm:git:https://github.com/eurasia-insurance/javax-javaee-bom.git</developerConnection>
+		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
