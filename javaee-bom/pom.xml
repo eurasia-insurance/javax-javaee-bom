@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>tech.lapsa.javax</groupId>
 		<artifactId>javax-javaee-bom-root</artifactId>
-		<version>7.0a</version>
+		<version>CURRENT-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>javax-javaee-bom</artifactId>
